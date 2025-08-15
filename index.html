@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Efraim Gondraneos | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-inner s-container">
+        <div class="logo">
+          <h2>master eps</h2>
+          <img src="img/happy.png" alt="icon" />
+        </div>
+        <div class="header-menu desktop-only">
+          <ul>
+            <li><a class="link link--metis" href="#hero">Home</a></li>
+            <li><a class="link link--metis" href="#projects">Projects</a></li>
+            <li><a class="link link--metis" href="#skills">Skills</a></li>
+            <li><a class="link link--metis" href="#about">About</a></li>
+            <li><a class="link link--metis" href="#contact">Contact</a></li>
+          </ul>
+          <a
+            href="docs/efraim_CV.pdf"
+            download="Efraim_CV.pdf"
+            rel="noopener noreferrer"
+            class="site-btn hdr-btn"
+            >Download my CV</a
+          >
+        </div>
+        <button
+          type="button"
+          class="burger-menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+          <span></span>
+        </button>
+      </div>
+      <nav
+        id="mobileMenu"
+        class="header-menu mobile-only"
+        role="dialog"
+        aria-modal="true"
+      >
+        <ul>
+          <li><a class="link link--metis" href="#hero">Home</a></li>
+          <li><a class="link link--metis" href="#projects">Projects</a></li>
+          <li><a class="link link--metis" href="#skills">Skills</a></li>
+          <li><a class="link link--metis" href="#about">About</a></li>
+          <li><a class="link link--metis" href="#contact">Contact</a></li>
+        </ul>
+        <a
+          href="docs/efraim_CV.pdf"
+          download="Efraim_CV.pdf"
+          rel="noopener noreferrer"
+          class="site-btn hdr-btn"
+          >Download my CV</a
+        >
+      </nav>
+    </header>
+    <!-- Page overlay -->
+    <div class="page-overlay" id="pageOverlay"></div>
+    <main>
+      <!-- Hero -->
+      <section id="hero" class="hero">
+        <div class="s-container">
+          <h1 class="title">
+            Hey there! I'm <span class="name">Epe</span>, a passionate Web
+            Developer that loves to convert web designs into an interactive and
+            responsive website.
+          </h1>
+        </div>
+      </section>
+      <!-- Projects -->
+      <section id="projects">
+        <div class="s-container">
+          <h2 class="section-title">My <span>Projects</span></h2>
+          <h3 class="section-sub-title">Freelance</h3>
+          <div class="project-main">
+            <div class="grid-2x">
+              <div class="img-container">
+                <a
+                  href="https://stacysellshomes.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/stacy.png" alt="Project Image"
+                /></a>
+              </div>
+              <div class="content-container">
+                <h3 class="project-title">Florida Home Team Realty</h3>
+                <div class="skills-stacked">
+                  <span class="language-display">HTML</span>
+                  <span class="language-display">CSS</span
+                  ><span class="language-display">Bootstrap</span>
+                  <span class="language-display">JS</span>
+                  <span class="language-display">JQUERY</span>
+                  <span class="language-display">WORDPRESS</span>
+                  <span class="language-display">PHP</span>
+                </div>
+                <p class="content-text">
+                  A real estate website for a licensed broker offering
+                  residential buying and selling services across Florida, with a
+                  focus on the Orlando area.
+                </p>
+                <a
+                  class="site-btn"
+                  href="https://stacysellshomes.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Demo</a
+                >
+              </div>
+            </div>
+            <div class="grid-2x inverted">
+              <div class="content-container">
+                <h3 class="project-title">Excel Realty & Mortgage</h3>
+                <div class="skills-stacked">
+                  <span class="language-display">HTML</span>
+                  <span class="language-display">CSS</span>
+                  <span class="language-display">Bootstrap</span>
+                  <span class="language-display">JS</span>
+                  <span class="language-display">JQUERY</span>
+                  <span class="language-display">WORDPRESS</span>
+                  <span class="language-display">PHP</span>
+                </div>
+                <p class="content-text">
+                  A personal real estate website showcasing top-tier buyer,
+                  seller, and relocation services throughout the Tri-Valley and
+                  San Francisco Bay Area.
+                </p>
+                <a
+                  class="site-btn"
+                  href="https://soldbylouisa.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Demo</a
+                >
+              </div>
+              <div class="img-container">
+                <a
+                  href="https://soldbylouisa.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  ><img src="img/louisa.png" alt="Project Image"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <h3 class="section-sub-title">Capstone</h3>
+          <div class="project-main">
+            <div class="grid-2x">
+              <div class="img-container">
+                <a
+                  href="https://drive.google.com/file/d/1h0Rs35EeU75jgjwuIQp03ufup37aPrcC/view?t=10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/mihis.png" alt="Project Image"
+                /></a>
+              </div>
+              <div class="content-container">
+                <h3 class="project-title">MIHIS</h3>
+                <div class="skills-stacked">
+                  <span class="language-display">HTML</span>
+                  <span class="language-display">CSS</span
+                  ><span class="language-display">Bootstrap</span>
+                  <span class="language-display">JS</span>
+                  <span class="language-display">ExpressJS</span>
+                  <span class="language-display">NodeJS</span>
+                  <span class="language-display">Typescript</span>
+                  <span class="language-display">Angular</span>
+                  <span class="language-display">MongoDB</span>
+                  <span class="language-display">Fetch API</span>
+                </div>
+                <p class="content-text">
+                  A health information system designed to manage malnutrition
+                  and immunization records, featuring e-vaccination cards,
+                  schedule tracking, and automated SMS/email notifications for
+                  parents and healthcare workers to improve child health
+                  outcomes.
+                </p>
+                <a
+                  class="site-btn"
+                  href="https://drive.google.com/file/d/1h0Rs35EeU75jgjwuIQp03ufup37aPrcC/view?t=10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <h3 class="section-sub-title">OJT</h3>
+          <div class="project-main">
+            <div class="grid-2x inverted">
+              <div class="content-container">
+                <h3 class="project-title">CipherKey Ticketing System</h3>
+                <div class="skills-stacked">
+                  <span class="language-display">HTML</span>
+                  <span class="language-display">CSS</span>
+                  <span class="language-display">Bootstrap</span>
+                  <span class="language-display">JS</span>
+                  <span class="language-display">JQUERY</span>
+                  <span class="language-display">PHP</span>
+                  <span class="language-display">CodeIgniter</span>
+                  <span class="language-display">MySQL</span>
+                </div>
+                <p class="content-text">
+                  A secure ticket management platform for PhilHealth that
+                  streamlines request submissions, document handling, and status
+                  tracking, with built-in validation, file uploads, and email
+                  notifications to improve processing efficiency and
+                  communication.
+                </p>
+                <a
+                  class="site-btn"
+                  href="https://drive.google.com/file/d/1SZT_GJB6aqMV4X3AV-xlSRxek03Z5wVX/view?t=2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Demo</a
+                >
+              </div>
+              <div class="img-container">
+                <a
+                  href="https://drive.google.com/file/d/1SZT_GJB6aqMV4X3AV-xlSRxek03Z5wVX/view?t=2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/cypher.png" alt="Project Image"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section id="skills">
+        <div class="s-container">
+          <h2 class="section-title"><span>Skills</span></h2>
+          <div class="skills-cards">
+            <div class="sc-item">
+              <img src="img/html-logo.svg" alt="logo" />
+              <em class="s-desc">HTML</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/css-logo.svg" alt="logo" />
+              <em class="s-desc">CSS</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/bootstrap-logo.svg" alt="logo" />
+              <em class="s-desc">Bootstrap</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/js-logo.svg" alt="logo" />
+              <em class="s-desc">Javascript</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/jquery-logo.svg" alt="logo" />
+              <em class="s-desc">JQuery</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/typescript-logo.svg" alt="logo" />
+              <em class="s-desc">Typescript</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/express-logo.svg" alt="logo" />
+              <em class="s-desc">ExpressJs</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/node-logo.svg" alt="logo" />
+              <em class="s-desc">NodeJs</em>
+            </div>
+            <div class="sc-item ag">
+              <img src="img/angular-icon.svg" alt="logo" />
+              <em class="s-desc">Angular</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/react-logo.svg" alt="logo" />
+              <em class="s-desc">React</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/php-logo.svg" alt="logo" />
+              <em class="s-desc">PHP</em>
+            </div>
+            <div class="sc-item ci">
+              <img src="img/codeigniter.svg" alt="logo" />
+              <em class="s-desc">CodeIgniter</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/mysql-logo.svg" alt="logo" />
+              <em class="s-desc">MySQL</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/mongodb-logo.svg" alt="logo" />
+              <em class="s-desc">Mongodb</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/wordpress-logo.svg" alt="logo" />
+              <em class="s-desc">Wordpress</em>
+            </div>
+          </div>
+          <h2 class="section-title mt-50"><span>Tools</span></h2>
+          <div class="skills-cards">
+            <div class="sc-item">
+              <img src="img/git-logo.svg" alt="logo" />
+              <em class="s-desc">Git</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/github-logo.svg" alt="logo" />
+              <em class="s-desc">Github</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/figma-logo.svg" alt="logo" />
+              <em class="s-desc">Figma</em>
+            </div>
+            <div class="sc-item">
+              <img src="img/photoshop-logo.svg" alt="logo" />
+              <em class="s-desc">Photoshop</em>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about">
+        <div class="s-container">
+          <h2 class="section-title mt-50">About <span>Me</span></h2>
+          <div class="grid-2x">
+            <div class="about-img">
+              <img src="img/about-me.JPG" alt="about me" />
+            </div>
+            <div class="about-desc">
+              <p>
+                <em class="highlight"
+                  >Hi! I’m Epe from Binangonan, Rizal, Philippines. I’m a fresh
+                  graduate from Jose Rizal University with experience as a
+                  freelance Front-End Developer.</em
+                >
+                For my thesis, I independently built a full-stack MEAN
+                application, handling both the front-end and back-end
+                development on my own.
+              </p>
+              <p>
+                As a developer, I specialize in translating designs into
+                functional, responsive, and user-friendly websites. I ensure
+                that every project I work on is optimized for performance,
+                creatively executed, and aligned with the client’s goals. I’m
+                passionate about learning new technologies, staying updated with
+                the latest trends, and continuously improving my skills.
+              </p>
+              <p>
+                I believe that collaboration is key to building great products.
+                I work closely with stakeholders to understand their needs and
+                translate them into effective system features — making sure
+                projects are delivered efficiently and with quality.
+              </p>
+              <p>
+                Outside of coding, I value work-life balance. As developers, we
+                often spend hours solving problems and debugging, so I make it a
+                point to refresh my mind by playing guitar and enjoying video
+                games. These hobbies not only keep me relaxed but also fuel my
+                creativity and problem-solving skills.
+              </p>
+              <p>
+                I’m excited to grow in the tech industry, contribute to
+                impactful projects, and continue pushing my boundaries as a
+                developer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="s-container">
+        <div class="footer-content">
+          <div class="left">
+            <h2>&copy;Efraim Gondraneos <span id="year"></span></h2>
+          </div>
+          <div class="center">
+            <ul class="links">
+              <li>
+                <a
+                  href="https://web.facebook.com/efraim.gondraneos.3/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="img/facebook.png" alt="logo"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/7Guitarist"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="img/githubb.png" alt="logo" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/efraim-gondraneos-2b016137a/?trk=opento_sprofile_details"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="img/linkedin.png" alt="logo" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <!-- <a href="mailto:efraim.gondraneos@gmail.com">Let's Work Together</a> -->
+            <ul class="contact-items">
+              <li>
+                <span><img src="img/email.png" alt="icon" /></span
+                ><a href="mailto:efraim.gondraneos@gmail.com"
+                  >efraim.gondraneos@gmail.com</a
+                >
+              </li>
+              <li>
+                <span><img src="img/phone-call.png" alt="icon" /></span
+                ><a href="tel:+639683799097">+63 968 379 9097</a>
+              </li>
+              <li>
+                <span><img src="img/location.png" alt="icon" /></span
+                ><a
+                  href="https://www.google.com/maps/place/Pine+Crest+by+Vista+Residences/@14.6158389,121.0362472,17z/data=!3m1!4b1!4m6!3m5!1s0x3397b7b7d10a9065:0xea8672fc946e2e61!8m2!3d14.6158389!4d121.0388275!16s%2Fg%2F11jd6n41bd?entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pine Crest by Vista Residences
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script defer>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      // Burger Menu
+      const burger = document.querySelector(".burger-menu");
+      const menu = document.getElementById("mobileMenu");
+      const overlay = document.getElementById("pageOverlay");
+
+      function closeMenu() {
+        menu.classList.remove("is-open");
+        overlay.classList.remove("is-active");
+        document.body.classList.remove("no-scroll");
+        burger.setAttribute("aria-expanded", "false");
+      }
+
+      function openMenu() {
+        menu.classList.add("is-open");
+        overlay.classList.add("is-active");
+        document.body.classList.add("no-scroll");
+        burger.setAttribute("aria-expanded", "true");
+      }
+
+      burger.addEventListener("click", () => {
+        const isOpen = menu.classList.toggle("is-open");
+        overlay.classList.toggle("is-active", isOpen);
+        document.body.classList.toggle("no-scroll", isOpen);
+        burger.setAttribute("aria-expanded", String(isOpen));
+      });
+
+      // close when clicking the dark area or a link
+      overlay.addEventListener("click", closeMenu);
+      menu
+        .querySelectorAll("a")
+        .forEach((a) => a.addEventListener("click", closeMenu));
+
+      // optional: close with Esc key
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeMenu();
+      });
+      // Burger Menu
+    </script>
+  </body>
+</html>
